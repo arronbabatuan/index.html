@@ -1,0 +1,96 @@
+    * {
+        background-color: rgb(97, 187, 187);
+
+
+    }
+
+    .container {
+        width: 80%;
+        height: 700px;
+        border: 4px solid #f0e9e9;
+        padding: 10px;
+        margin:  auto;
+        border-radius: 50px;
+
+    }
+    .section-1 {
+        width: 30%;
+        height: 200px;
+        border-radius:30px ;
+        font-family: sans-serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        border: 3px solid #c05858;
+
+
+    }
+    .section-2 {
+        width: 30%;
+        height: 200px;
+        border-radius:30px ;
+        font-family: sans-serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        border: 3px solid #c05858;
+    }
+    .section-3 {
+        width: 30%;
+        height: 200px;
+        border-radius:30px  ;
+        font-family: sans-serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        border: 3px solid #c05858;
+    }
+    /* .section-4 {
+        width: 15%;
+        height: 100px;
+        border-radius:30px  ;
+        font-family: sans-serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        border: 3px solid #c05858;
+    } */
+        /* dri nnga part sir kay gah try ko sa flexbox then after ge comment nako kaymo proceed kos grid*/
+    .container{
+        display: flex;
+        justify-content: space-between;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-wrap: wrap ;
+        align-content: flex-start;
+            gap: 1em;
+    }
+    .section-1 {
+        order: ;
+        flex-grow: 5;
+
+
+
+    }
+    /* kani nga part sir kay sa grid nako nag try ani
+    .container {
+            display: grid;
+            grid-template-rows: 200px 300px 200px ;
+            grid-template-columns: 1fr 3fr;
+            grid-gap: 1em 3em;
+            grid-template-areas:
+
+            'header header'
+            'main aside'
+            'footer footer';
+
+    }
+    .section-1 {
+        grid-area: header;
+    }      
+    .section-2 {
+        grid-area: main;
+    }
+    .section-3 {
+        grid-area: aside;
+    }
+    .section-4 {
+    grid-area: footer;
+    } */
+
